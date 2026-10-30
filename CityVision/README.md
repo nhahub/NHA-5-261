@@ -1,74 +1,128 @@
-# CityVision — Smart City Intelligence & Analytics Platform
+<div align="center">
 
-CityVision integrates, analyzes, and visualizes urban data from six domains — **Traffic, Accidents, Weather, Air Quality, Transportation, and Energy** — in one unified analytical environment, turning fragmented city data into reliable, actionable insights.
+  <h1>🌆 CityVision</h1>
+  <h3>Smart City Intelligence & Analytics Platform</h3>
 
-**Project type:** Smart City Analytics / Data Analytics / Business Intelligence
-**Duration:** 6 weeks | **Team size:** 6 members
+  <p>
+    <strong>Integrating, Analyzing, and Visualizing Multi-Domain Urban Data for Smart Decision Making</strong>
+  </p>
 
-## Problem
+  <!-- Badges Stack -->
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/SQL%20Server-Database-CC292B?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+    <img src="https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+    <img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  </p>
 
-Urban data is spread across different sectors with different formats, timestamps, geographic details, and granularity levels. This makes it hard to see the city as a connected system, identify priority areas, detect recurring patterns, and anticipate future trends.
+  <p>
+    <img src="https://img.shields.io/badge/Type-Smart%20City%20%2F%20Data%20Analytics-blue?style=flat-square" alt="Type" />
+    <img src="https://img.shields.io/badge/Duration-6%20Weeks-orange?style=flat-square" alt="Duration" />
+    <img src="https://img.shields.io/badge/Team%20Size-6%20Members-brightgreen?style=flat-square" alt="Team Size" />
+  </p>
 
-## Objectives
+</div>
 
-1. Collect and prepare data for the six urban domains.
-2. Clean data (missing values, duplicates, inconsistent formats) with SQL and Python.
-3. Integrate compatible datasets into a unified analytical model.
-4. Perform Exploratory Data Analysis (EDA).
-5. Build interactive Power BI dashboards for KPIs, time, and location analysis.
-6. Build a forecasting model for at least one suitable indicator (e.g., traffic volume or energy consumption), evaluated against a baseline.
-7. Provide data-driven recommendations.
-8. Document implementation, testing, and findings for reproducibility.
+---
 
-## Tech Stack
+## 🎯 Executive Summary
 
-- SQL Server / PostgreSQL — storage, cleaning, integration
-- Python (Pandas, NumPy) and Jupyter Notebook — analysis and forecasting
-- Power BI Desktop — semantic model, DAX measures, dashboards
-- Git & GitHub — version control and collaboration
+**CityVision** is a Smart City Intelligence & Analytics Platform that integrates, analyzes, and visualizes urban data from six key domains in one unified analytical environment:
 
-## Repository Structure
+<div align="center">
+
+| 🚗 **Traffic** | 🚨 **Accidents** | 🌤️ **Weather** | 🍃 **Air Quality** | 🚌 **Transportation** | ⚡ **Energy** |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+
+</div>
+
+By bridging disparate urban datasets, **CityVision** transforms fragmented municipal raw data into reliable, real-time actionable insights for city planners, engineers, and policymakers.
+
+---
+
+## ⚠️ The Problem
+
+Urban data is traditionally **siloed across different municipal sectors** with varying formats, recording timestamps, geographic details, and granularity levels. 
+
+> 🚨 **Core Challenge:** City leadership cannot view the city as a unified, connected ecosystem, making it difficult to pinpoint high-priority infrastructure zones, identify recurring spatial-temporal patterns, or forecast future utility and transport demands.
+
+---
+
+## 🚀 Key Objectives
+
+- [x] **Multi-Source Ingestion:** Collect and clean open-source datasets across all 6 core urban domains.
+- [x] **ETL & Data Hygiene:** Standardize schema, impute missing values, and handle duplicates using **SQL** and **Python**.
+- [x] **Unified Modeling:** Architect a relational Star-Schema model connecting all six domains seamlessly.
+- [x] **Exploratory Data Analysis:** Conduct deep-dive spatial, temporal, and multivariate correlation analysis.
+- [x] **Executive Dashboards:** Build high-impact interactive **Power BI** dashboards for instant KPI monitoring and geographic drill-downs.
+- [x] **Predictive Modeling:** Train time-series forecasting models (evaluated via MAE, RMSE, and MAPE vs. baseline) for key indicators like traffic volume and energy loads.
+- [x] **Strategic Recommendations:** Formulate data-backed policy and operational recommendations.
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+| Layer | Tools & Technologies |
+| :--- | :--- |
+| **Data Storage & Integration** | `Microsoft SQL Server` / `PostgreSQL` |
+| **Data Processing & Analytics** | `Python 3.10+`, `Pandas`, `NumPy`, `Jupyter Notebooks` |
+| **Business Intelligence** | `Power BI Desktop`, `DAX`, `Power Query` |
+| **Version Control & Docs** | `Git`, `GitHub`, `Markdown` |
+
+---
+
+## 📂 Repository Structure
 
 ```text
 CityVision/
-├── 01_Project_Management/   Proposal, plan, roles, risks, KPIs
-├── 02_Data/                 Raw and processed datasets, data dictionary
-├── 03_SQL/                  Cleaning, integration, and KPI queries
-├── 04_Python/               Cleaning, EDA, and forecasting notebooks
-├── 05_PowerBI/              CityVision dashboard (.pbix)
-├── 06_Reports/              Data quality, forecast evaluation, final report
-├── CityVision_Presentation.pptx
-└── README.md
+├── 📁 01_Project_Management/   # Proposal, execution plans, role matrices, risk logs
+├── 📁 02_Data/                 # Raw & cleaned datasets, schema dictionaries
+├── 📁 03_SQL/                  # ETL scripts, cleaning queries, KPI views
+├── 📁 04_Python/               # Processing, EDA notebooks, time-series forecasting
+├── 📁 05_PowerBI/              # Interactive dashboard files (.pbix)
+├── 📁 06_Reports/              # Data Quality Reports, Forecast evaluations, Final Documentation
+├── 📊 CityVision_Presentation.pptx
+└── 📄 README.md
 ```
+---
+📖 For full technical documentation, see
+[`01_Project_Management/Project_Documentation.md`](01_Project_Management/Project_Documentation.md)
 
-Full project documentation: [`01_Project_Management/Project_Documentation.md`](01_Project_Management/Project_Documentation.md)
+## 📅 6-Week Execution Roadmap
 
-## Project Plan (6 Weeks)
+| Week | Phase | Focus Area & Key Deliverables |
+| :---: | :--- | :--- |
+| **Week 1** | **Planning & Discovery** | Project Charter, Dataset Inventory, KPI Mapping |
+| **Week 2** | **Cleaning & Integration** | SQL ETL Scripts, Data Standardization & Quality Report |
+| **Week 3** | **EDA & Data Modeling** | Jupyter Analytics Notebooks, Star Schema Architecture |
+| **Week 4** | **Power BI Development** | Dynamic DAX Metrics, Geospatial Maps & Dashboard MVP |
+| **Week 5** | **Forecasting & Insights** | Time-Series Analytics, Evaluation Report & Policy Brief |
+| **Week 6** | **Testing & Delivery** | SQL vs Power BI QA, Final Technical Documentation & Presentation |
 
-| Week | Phase | Key Deliverables |
-|---|---|---|
-| 1 | Planning & Data Discovery | Proposal, dataset inventory, KPI requirements |
-| 2 | Data Cleaning & Integration | Cleaned datasets, SQL scripts, data quality report |
-| 3 | EDA & Data Modeling | Python notebooks, data model, KPI definitions |
-| 4 | Power BI Development | Interactive dashboard MVP |
-| 5 | Forecasting & Recommendations | Forecasting notebook, evaluation report, recommendations |
-| 6 | Testing & Final Delivery | Final dashboard, report, presentation |
+---
 
-## Team
+## 👥 The CityVision Team
 
 | Member | Role |
-|---|---|
-| آلاء أيمن رمضان إسماعيل | Team Leader & Project Coordinator |
-| نيرة أبو الفتوح عبد المحسن سالم | Data Sources & Data Quality |
-| عبد الرحمن محمد عبد العظيم قناوي | SQL Developer & Data Integration |
-| شهد سليمان العمروسي | Python Data Analyst |
-| مروة ناصر عبد الرحمن سويلم | Power BI Developer |
-| ضياء محمد إبراهيم السيد | Forecasting, QA & Reporting |
+| :--- | :--- |
+| **آلاء أيمن رمضان الصعيدي** | Team Leader & Project Coordinator |
+| **نيرة أبو الفتوح عبد المحسن سالم** | Data Sources & Data Quality |
+| **عبد الرحمن محمد عبد العظيم قناوي** | SQL Developer & Data Integration |
+| **شهد سليمان العمروسي** | Python Data Analyst |
+| **مروة ناصر عبد الرحمن سويلم** | Power BI Developer |
+| **ضياء محمد إبراهيم السيد**| Forecasting, QA & Reporting |
+## 🚫 Out of Scope
 
-## Out of Scope
+To maintain project rigor within the 6-week timeframe, the following are explicitly out of scope:
+- Live physical traffic signal actuation or IoT hardware deployment.
+- Production real-time streaming pipelines (e.g., Kafka / Flink).
+- End-user mobile app development.
 
-Controlling traffic lights or infrastructure, deploying IoT sensors, a real-time operational system, a citizen mobile app, and guaranteeing predictions for every city event.
+---
 
-## Success Metrics
+## 📈 Success & Performance Metrics
 
-Data quality (completeness ≥ 95%, duplicates ≤ 1%), dashboard performance (load ≤ 5 s, KPI accuracy 100% on tested cases), forecasting (MAE, RMSE, MAPE vs. a baseline), and business impact (traceable, evidence-based recommendations). Targets are proposed and will be reviewed against the actual data.
+- **Data Integrity:** Completeness ≥ 95%, Duplicate records ≤ 1%.
+- **Dashboard Performance:** Full page load time ≤ 5 seconds, 100% accuracy on tested DAX aggregations.
+- **Forecasting Precision:** Model performance benchmarked and superior to naive baselines via MAE, RMSE, and MAPE.
+- **Actionability:** All operational insights directly mapped to verified quantitative findings.
