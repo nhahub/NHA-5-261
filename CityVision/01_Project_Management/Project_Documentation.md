@@ -3,8 +3,11 @@
 ## Project Documentation
 
 **Project Type:** Smart City Analytics / Data Analytics / Business Intelligence
+
 **Planned Duration:** 6 weeks
+
 **Team Size:** 6 members
+
 **Team Leader:** آلاء أيمن رمضان إسماعيل
 
 ---
